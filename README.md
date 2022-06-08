@@ -1,3 +1,36 @@
+# gatsby-mdx-chakra-portfolio
+
+# 🚀 Javascript full-stack 🚀
+
+
+https://github.com/coding-to-music/gatsby-mdx-chakra-portfolio
+
+https://gatsby-mdx-chakra-portfolio.vercel.app
+
+From / By Lennart https://github.com/LekoArts
+
+https://github.com/LekoArts/portfolio-v2
+
+https://www.lekoarts.de
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/gatsby-mdx-chakra-portfolio.git
+git push -u origin main
+```
+
+
 # lekoarts.de
 
 Hello 👋

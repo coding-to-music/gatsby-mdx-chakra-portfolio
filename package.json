@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-v2",
+  "name": "gatsby-mdx-chakra-portfolio",
   "description": "Home of lekoarts.de",
   "version": "1.0.0",
   "private": true,
@@ -10,6 +10,8 @@
     "www"
   ],
   "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "vercel": "npm run deploy && vercel --prod",
     "develop": "yarn workspace www develop",
     "clean": "yarn workspace www clean",
     "build": "yarn workspace www build",
