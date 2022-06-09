@@ -9,6 +9,10 @@
     "packages/*",
     "www"
   ],
+  "cacheDirectories": [
+    "node_modules",
+    "www/node_modules"
+  ],
   "scripts": {
     "deploy": "git add . && git commit -m Build && git push",
     "vercel": "npm run deploy && vercel --prod",
