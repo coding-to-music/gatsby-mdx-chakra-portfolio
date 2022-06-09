@@ -38,6 +38,7 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 node_modules
+www/node_modules
 public
 .cache
 .vscode
@@ -65,3 +66,4 @@ cypress/e2e/build
 !.yarn/versions
 .swc
 playwright/test-results
+.vercel
