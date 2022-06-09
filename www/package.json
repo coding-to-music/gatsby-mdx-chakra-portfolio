@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "license": "GPLv3",
+  "cacheDirectories": [
+    "node_modules",
+    "www/node_modules"
+  ],
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
